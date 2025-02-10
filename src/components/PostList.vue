@@ -5,7 +5,7 @@ import logo from '../../images/reddit.png'
 
 const posts = ref([]);
 const newPost = ref({ title: "", content: "", author: "" });
-const editingPost = ref(null); // Stores the post being edited
+const editingPost = ref(null);
 const editedPost = ref({ title: "", content: "", author: "" });
 
 const fetchPosts = async () => {
